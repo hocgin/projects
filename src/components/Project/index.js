@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './index.less';
 import Scrollable from '@/components/Scrollable';
-import { Icon, Tag, Tooltip } from 'antd';
+import { Icon, Tooltip } from 'antd';
 
 class Index extends React.PureComponent {
 
@@ -40,7 +40,7 @@ class Index extends React.PureComponent {
                    alt="logo"/>
               {projectTitle}
             </a>
-            <span className={styles.flag}>{badgeTitle}</span>
+            {badgeTitle && <span className={styles.flag}>{badgeTitle}</span>}
           </h2>
           <div className={styles.subTitle}>{projectSubTitle}</div>
           <div className={styles.desc}>{projectDesc}</div>
@@ -50,11 +50,10 @@ class Index extends React.PureComponent {
                           href={href}
                           type={type}
                           text={text}/>))}
-
-            <div className={styles.followers}>
+            {follower.number > 0 && <div className={styles.followers}>
               <span className={styles.followerNumber}>{follower.number}</span>
               <span>followers</span>
-            </div>
+            </div>}
           </div>
           <div className={styles.tagWrapper}>
             {projectTags.join(',')}
