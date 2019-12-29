@@ -35,4 +35,9 @@ export default {
       },
     }],
   ],
+  copy: [{
+    from: "CNAME",
+    to: "CNAME",
+    toType: "file",
+  }]
 };
