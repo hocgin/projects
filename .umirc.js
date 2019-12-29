@@ -10,6 +10,10 @@ export default {
       ],
     },
   ],
+  exportStatic: {
+    htmlSuffix: true,
+    dynamicRoot: true,
+  },
   outputPath: './docs',
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
