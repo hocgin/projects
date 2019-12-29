@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './index.less';
 import Scrollable from '@/components/Scrollable';
-import { Icon, Tooltip } from 'antd';
+import { Avatar, Icon, Tooltip } from 'antd';
 
 class Index extends React.PureComponent {
 
@@ -35,9 +35,9 @@ class Index extends React.PureComponent {
         <div className={styles.info}>
           <h2 className={styles.title}>
             <a href={projectHref}>
-              <img className={styles.logo}
-                   src={projectLogo}
-                   alt="logo"/>
+              <Avatar className={styles.logo}
+                      icon="project"
+                      src={projectLogo}/>
               {projectTitle}
             </a>
             {badgeTitle && <span className={styles.flag}>{badgeTitle}</span>}
