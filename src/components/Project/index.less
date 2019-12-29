@@ -1,0 +1,132 @@
+@import "~@/mixin.less";
+
+.component {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 270px;
+  min-height: 120px;
+  position: relative;
+  box-sizing: content-box;
+
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  padding-left: 120px;
+  padding-right: 30px;
+  line-height: 1.4;
+  .theme() {
+    color: #999;
+    font-size: 13px;
+    margin-bottom: 3px;
+  }
+
+  .title {
+    line-height: 1.2;
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    .flag {
+      background: #ccc;
+      border-radius: 3px;
+      font-weight: bold;
+      padding: 1px 3px;
+      color: #fff;
+      margin-left: 4px;
+      font-size: 80%;
+    }
+
+    :global(a) {
+      text-decoration: none;
+      color: #444;
+    }
+  }
+
+  .subTitle {
+    overflow: hidden;
+    .theme();
+
+  }
+
+  .desc {
+    word-break: break-word;
+    .theme();
+    color: #757575;
+  }
+
+  .actionWrapper {
+    .theme();
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1;
+    margin: 6px 0;
+
+    .action {
+      margin-right: 3px;
+      padding: 6px;
+      background-color: #ddd;
+      border-radius: 4px;
+      color: #666;
+    }
+
+    .followers {
+      font-weight: normal;
+      .followerNumber {
+        font-weight: bold;
+        line-height: 1;
+        color: #757575;
+        display: block;
+      }
+    }
+  }
+
+  .tagWrapper {
+    .theme();
+    font-size: 12px;
+  }
+}
+
+.scrollView {
+  flex: 1 1;
+  overflow-x: hidden;
+}
+
+/**
+ * 手机适配
+ */
+@media only screen and (max-width: 800px) {
+  .component {
+    flex-direction: column;
+  }
+
+  .info {
+    padding-left: 80px;
+    min-height: 60px;
+    flex: unset;
+
+    .logo {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  .scrollView {
+    margin-top: 30px;
+  }
+
+}
+
