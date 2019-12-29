@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Project Title",
+    "href": "http://hocg.in",
+    "badge": {
+      "title": "徽章"
+    },
+    "logo": "https://goss.veer.com/creative/vcg/veer/800water/veer-125171884.jpg",
+    "subTitle": "子标题",
+    "desc": "描述",
+    "actions": {
+      "list": [
+        {
+          "type": "github",
+          "text": "",
+          "href": "#url"
+        },
+        {
+          "type": "link",
+          "text": "",
+          "href": "#url"
+        }
+      ],
+      "follower": {
+        "number": 10
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "images": [
+      {
+        "src": "https://goss.veer.com/creative/vcg/veer/800water/veer-125171884.jpg"
+      }
+    ]
+  }
+]
