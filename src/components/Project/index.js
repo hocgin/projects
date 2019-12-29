@@ -56,7 +56,7 @@ class Index extends React.PureComponent {
             </div>}
           </div>
           <div className={styles.tagWrapper}>
-            {projectTags.join(',')}
+            {projectTags.join('、')}
           </div>
         </div>
         <div className={styles.scrollView}>
