@@ -1,5 +1,33 @@
 [
   {
+    "title": "Code View",
+    "badge": {
+      "title": "New"
+    },
+    "href": "https://github.com/hocgin/intellij-codeview",
+    "subTitle": "hocgin",
+    "desc": "\uD83D\uDC39 Intellij 插件",
+    "actions": {
+      "list": [
+        {
+          "type": "github",
+          "text": "GitHub",
+          "href": "https://github.com/hocgin/intellij-codeview"
+        },
+        {
+          "type": "download",
+          "text": "下载",
+          "href": "https://github.com/hocgin/intellij-codeview/releases"
+        }
+      ]
+    },
+    "tags": [
+      "开发工具",
+      "Kotlin",
+      "Intellij 插件"
+    ]
+  },
+  {
     "title": "Payment Project",
     "href": "https://github.com/hocgin/payment-project",
     "subTitle": "hocgin",
@@ -114,7 +142,7 @@
           "href": "https://github.com/hocgin/chrome-extension-weather"
         },
         {
-          "type": "download",
+          "type": "chrome",
           "text": "Chrome 下载",
           "href": "https://chrome.google.com/webstore/detail/weather/ibieofighcnndjcjchdahdiacjpmkhgf"
         }
@@ -124,7 +152,7 @@
       }
     },
     "tags": [
-      "Chrome",
+      "Chrome 插件",
       "天气"
     ],
     "images": [
