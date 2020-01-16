@@ -5,6 +5,7 @@ function BasicLayout(props) {
   return (
     <div className={styles.normal}>
       <h1 className={styles.title}>hocgin`s Projects</h1>
+      <div className={styles.gradientLine}></div>
       {props.children}
       <footer>
         <div className={styles.footerInfo}>

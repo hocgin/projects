@@ -5,6 +5,7 @@
       "title": "New"
     },
     "href": "https://github.com/hocgin/intellij-codeview",
+    "logo": "https://github.com/hocgin/intellij-codeview/raw/master/docs/logo.png",
     "subTitle": "hocgin",
     "desc": "\uD83D\uDC39 Intellij 插件",
     "actions": {
@@ -30,6 +31,7 @@
   {
     "title": "Payment Project",
     "href": "https://github.com/hocgin/payment-project",
+    "logo": "https://github.com/hocgin/payment-project/raw/master/docs/logo.png",
     "subTitle": "hocgin",
     "desc": "聚合支付 - WxPay / AliPay",
     "actions": {
@@ -56,6 +58,7 @@
   {
     "title": "Squirrel",
     "href": "https://github.com/hocgin/squirrel",
+    "logo": "https://github.com/hocgin/squirrel/raw/master/docs/logo.png",
     "subTitle": "hocgin",
     "desc": "MyBatis 的封装",
     "actions": {
@@ -81,6 +84,7 @@
   {
     "title": "Wolves Spring Boot Project",
     "href": "https://github.com/hocgin/wolves-spring-boot-project",
+    "logo": "https://github.com/hocgin/wolves-spring-boot-project/raw/master/docs/logo.png",
     "subTitle": "hocgin",
     "desc": "Spring Boot 开箱即用，多数据源",
     "actions": {
@@ -106,6 +110,7 @@
   {
     "title": "Windmill Spring Boot Project",
     "href": "https://github.com/hocgin/windmill-spring-boot-project",
+    "logo": "https://github.com/hocgin/windmill-spring-boot-project/raw/master/docs/logo.png",
     "subTitle": "hocgin",
     "desc": "Spring Boot 开箱即用，防重放",
     "actions": {
