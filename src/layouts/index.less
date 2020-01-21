@@ -14,11 +14,57 @@
 }
 .gradientLine {
   height: 5px;
+  overflow: hidden;
   background-position: 0 50%;
   background-size: auto;
   background-repeat: repeat-x;
   background-image: url(../assets/gradient.svg);
 }
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #31364b;
+  color: #656f98;
+  padding: 20px 0 20px 10px;
+  .site {
+    display: flex;
+    flex-direction: column;
+    .logo{
+
+    }
+    .social {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin: 5px 0 40px 0;
+      a {
+        background-color: #fff;
+        border-radius: 50%;
+        color: #31364b;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+      }
+    }
+    .copy {
+    }
+  }
+
+  .linkGroup {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .links {
+      margin-right: 30px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+
 .footerInfo {
   padding-bottom: 10px;
   box-sizing: border-box;
