@@ -1,9 +1,33 @@
 [
   {
-    "title": "Code View",
+    "title": "熊猫导航",
     "badge": {
       "title": "New"
     },
+    "href": "https://github.com/hocgin/panda",
+    "logo": "https://github.com/hocgin/panda/raw/master/docs/logo.png",
+    "subTitle": "hocgin",
+    "desc": "导航站",
+    "actions": {
+      "list": [
+        {
+          "type": "github",
+          "text": "GitHub",
+          "href": "https://github.com/hocgin/panda"
+        },
+        {
+          "type": "home",
+          "text": "网站",
+          "href": "https://panda.hocg.in/"
+        }
+      ]
+    },
+    "tags": [
+      "网站"
+    ]
+  },
+  {
+    "title": "Code View",
     "href": "https://github.com/hocgin/intellij-codeview",
     "logo": "https://github.com/hocgin/intellij-codeview/raw/master/docs/logo.png",
     "subTitle": "hocgin",
