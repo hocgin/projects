@@ -1,5 +1,6 @@
 import styles from './index.less';
-import { Icon } from 'antd';
+import { HeartFilled } from '@ant-design/icons';
+import React from 'react';
 
 function BasicLayout(props) {
   return (
@@ -10,8 +11,8 @@ function BasicLayout(props) {
       <footer>
         <div className={styles.footerInfo}>
           © 2020
-          <Icon className={styles.egg} type="heart" theme="filled" />
-          <a href="https://hocg.in" target="_blank">hocgin</a>
+          <HeartFilled className={styles.egg}/>
+          <a href="https://hocg.in" target="_blank" rel="noopener noreferrer">hocgin</a>
         </div>
       </footer>
     </div>

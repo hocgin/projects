@@ -1,7 +1,9 @@
 import React from 'react';
 import styles from './index.less';
 import Scrollable from '@/components/Scrollable';
-import { Avatar, Icon, Tooltip } from 'antd';
+import { Icon } from '@ant-design/compatible';
+
+import { Avatar, Tooltip } from 'antd';
 
 class Index extends React.PureComponent {
 
@@ -23,12 +25,14 @@ class Index extends React.PureComponent {
     let { title: badgeTitle = '' } = badge;
     let { list: actionList = [], follower = { number: 0 } } = projectActions;
 
-    let IconButton = ({ href, type, text, ...rest }) => {
-      return (<Tooltip placement="top" text={text}>
-        <a href={href} style={{ color: 'unset' }}>
-          <Icon className={styles.action} type={type}/>
-        </a>
-      </Tooltip>);
+    let IconButton = ({ href, type, text }) => {
+      return (
+        <Tooltip placement="top" text={text}>
+          <a href={href} style={{ color: 'unset' }}>
+            <Icon className={styles.action} type={type}/>
+          </a>
+        </Tooltip>
+      );
     };
     return (
       <div className={styles.component}>
@@ -36,7 +40,7 @@ class Index extends React.PureComponent {
           <h2 className={styles.title}>
             <a href={projectHref}>
               <Avatar className={styles.logo}
-                      icon="project"
+                      icon={<Icon type="project"/>}
                       src={projectLogo}/>
               {projectTitle}
             </a>

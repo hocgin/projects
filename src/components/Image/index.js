@@ -9,7 +9,7 @@ class Index extends React.PureComponent {
       <div className={styles.component}>
         <div className={styles.photoShot}>
           <div className={styles.photoImg}>
-            <img src={src} className={styles.photo}/>
+            <img src={src} className={styles.photo} alt="图片"/>
           </div>
         </div>
         {prefix !== '' && <div className={styles.indicator}>{prefix}</div>}

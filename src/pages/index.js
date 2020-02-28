@@ -24,11 +24,11 @@ class index extends React.Component {
     return (
       <div className={styles.page}>
         <div className={styles.toolbar}>
-          <a className={classname({
+          <a href="#↑" className={classname({
             [styles.selected]: !desc,
           })} onClick={this.onClickSort.bind(this, false)}>正序</a>
           <Divider type="vertical"/>
-          <a className={classname({
+          <a href="#↓" className={classname({
             [styles.selected]: desc,
           })} onClick={this.onClickSort.bind(this, true)}>倒序</a>
         </div>
