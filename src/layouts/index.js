@@ -1,6 +1,6 @@
 import styles from './index.less';
-import { HeartFilled } from '@ant-design/icons';
 import React from 'react';
+import Footer from '@/components/Footer';
 
 function BasicLayout(props) {
   return (
@@ -8,13 +8,7 @@ function BasicLayout(props) {
       <h1 className={styles.title}>hocgin`s Projects</h1>
       <div className={styles.gradientLine}/>
       {props.children}
-      <footer>
-        <div className={styles.footerInfo}>
-          © 2020
-          <HeartFilled className={styles.egg}/>
-          <a href="https://hocg.in" target="_blank" rel="noopener noreferrer">hocgin</a>
-        </div>
-      </footer>
+      <Footer/>
     </div>
   );
 }
