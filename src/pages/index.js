@@ -1,6 +1,6 @@
 import styles from './index.less';
 import React from 'react';
-import classname from 'classname';
+import classname from 'classnames';
 import Project from '@/components/Project';
 import { Divider, List } from 'antd';
 import { connect } from 'dva';
