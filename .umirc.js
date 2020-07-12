@@ -1,6 +1,6 @@
 // ref: https://umijs.org/config/
 export default {
-  title: 'hocgin`s Projects',
+  title: 'hocgin Projects',
   routes: [
     {
       path: '/',
