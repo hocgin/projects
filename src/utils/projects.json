@@ -1,9 +1,30 @@
 [
   {
-    "title": "熊猫导航",
+    "title": "Eagle",
     "badge": {
       "title": "New"
     },
+    "href": "https://github.com/hocgin/panda",
+    "logo": "https://github.com/hocgin/panda/raw/master/docs/logo.png",
+    "subTitle": "hocgin",
+    "desc": "商城/微信公众号/支付网关等",
+    "actions": {
+      "list": [
+        {
+          "type": "github",
+          "text": "Eagle",
+          "href": "https://github.com/hocgin/eagle"
+        }
+      ]
+    },
+    "tags": [
+      "商城",
+      "微信公众号",
+      "支付网关"
+    ]
+  },
+  {
+    "title": "熊猫导航",
     "href": "https://github.com/hocgin/panda",
     "logo": "https://github.com/hocgin/panda/raw/master/docs/logo.png",
     "subTitle": "hocgin",
