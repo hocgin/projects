@@ -3,6 +3,11 @@
  * 通用配置或样式
  * ============
  **/
+.mobile(@rules) {
+  @media only screen and (max-width: 800px) {
+    @rules();
+  }
+}
 
 .a() {
   border-bottom: 4px solid #e2e8f0;
@@ -10,4 +15,34 @@
   box-sizing: inherit;
   color: #a0aec0;
   font-weight: 700;
+}
+
+.heartbeat {
+  display: inline-block;
+  -webkit-animation: animation-heartbeat 1.3s ease 0s infinite normal;
+  animation: animation-heartbeat 1.3s ease 0s infinite normal
+}
+
+@-webkit-keyframes animation-heartbeat {
+  0%, 28%, 70% {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+
+  14%, 42% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3)
+  }
+}
+
+@keyframes animation-heartbeat {
+  0%, 28%, 70% {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+
+  14%, 42% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3)
+  }
 }
