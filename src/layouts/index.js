@@ -1,6 +1,6 @@
 import styles from './index.less';
 import React from 'react';
-import GinFooter from '@hocgin/gin-footer'
+import GinFooter from '@hocgin/gin-footer';
 
 function BasicLayout(props) {
   return (
