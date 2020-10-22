@@ -1,6 +1,6 @@
 import styles from './index.less';
 import React from 'react';
-import Footer from '@/components/Footer';
+import GinFooter from '@hocgin/gin-footer'
 
 function BasicLayout(props) {
   return (
@@ -8,7 +8,7 @@ function BasicLayout(props) {
       <h1 className={styles.title}>hocgin`s Projects</h1>
       <div className={styles.gradientLine}/>
       {props.children}
-      <Footer/>
+      <GinFooter/>
     </div>
   );
 }
