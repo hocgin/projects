@@ -96,6 +96,32 @@
     ]
   },
   {
+    "title": "Gin 组件库",
+    "href": "https://github.com/hocgin/gin-components",
+    "logo": "https://github.com/hocgin/gin-components/raw/master/docs/logo.png",
+    "subTitle": "hocgin",
+    "desc": "Gin 组件",
+    "actions": {
+      "list": [
+        {
+          "type": "github",
+          "text": "GitHub",
+          "href": "https://github.com/hocgin/gin-components"
+        },
+        {
+          "type": "home",
+          "text": "Gin组件官网",
+          "href": "https://gin.hocg.in/"
+        }
+      ]
+    },
+    "tags": [
+      "前端",
+      "React",
+      "组件库"
+    ]
+  },
+  {
     "title": "Eagle",
     "href": "https://github.com/hocgin/panda",
     "logo": "https://github.com/hocgin/panda/raw/master/docs/logo.png",
