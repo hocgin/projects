@@ -1,26 +1,29 @@
 [
   {
-    "title": "Eagle",
+    "title": "公众号",
     "badge": {
       "title": "New"
     },
-    "href": "https://github.com/hocgin/panda",
-    "logo": "https://github.com/hocgin/panda/raw/master/docs/logo.png",
+    "href": "http://mp.weixin.qq.com/s?__biz=MzI0MjcxNTMwMg==&mid=100001283&idx=1&sn=b3ed2dfa5d4ccc06ab47e35b923f8dfb&chksm=697959ca5e0ed0dcf27634bfd997ab67ef3faf7e8edce321420db8a88010171e23c2cd65f60b#rd",
+    "logo": "http://cdn.hocgin.top/uPic/mp_logo.png",
     "subTitle": "hocgin",
-    "desc": "商城/微信公众号/支付网关等",
+    "desc": "保持敏锐，一个竟然会更新的公众号..",
     "actions": {
       "list": [
         {
           "type": "github",
-          "text": "Eagle",
-          "href": "https://github.com/hocgin/eagle"
+          "text": "hocgin",
+          "href": "https://github.com/hocgin"
         }
       ]
     },
     "tags": [
-      "商城",
-      "微信公众号",
-      "支付网关"
+      "公众号"
+    ],
+    "images": [
+      {
+        "src": "http://cdn.hocgin.top/uPic/mp-logo.jpg"
+      }
     ]
   },
   {
@@ -45,6 +48,72 @@
     },
     "tags": [
       "网站"
+    ]
+  },
+  {
+    "title": "Taro Starter",
+    "href": "https://github.com/hocgin/taro-starter",
+    "logo": "https://github.com/hocgin/taro-starter/raw/master/docs/logo.png",
+    "subTitle": "hocgin",
+    "desc": "小程序模版, 基于 Taro + DvaJS",
+    "actions": {
+      "list": [
+        {
+          "type": "github",
+          "text": "GitHub",
+          "href": "https://github.com/hocgin/taro-starter"
+        }
+      ]
+    },
+    "tags": [
+      "前端",
+      "React",
+      "小程序",
+      "Taro",
+      "GitHub 模版"
+    ]
+  },
+  {
+    "title": "Antd Starter",
+    "href": "https://github.com/hocgin/antd-starter",
+    "logo": "https://github.com/hocgin/antd-starter/raw/master/docs/logo.png",
+    "subTitle": "hocgin",
+    "desc": "Antd for React 项目集成完成模版",
+    "actions": {
+      "list": [
+        {
+          "type": "github",
+          "text": "GitHub",
+          "href": "https://github.com/hocgin/antd-starter"
+        }
+      ]
+    },
+    "tags": [
+      "前端",
+      "React",
+      "Antd",
+      "GitHub 模版"
+    ]
+  },
+  {
+    "title": "Eagle",
+    "href": "https://github.com/hocgin/panda",
+    "logo": "https://github.com/hocgin/panda/raw/master/docs/logo.png",
+    "subTitle": "hocgin",
+    "desc": "商城/微信公众号/支付网关等",
+    "actions": {
+      "list": [
+        {
+          "type": "github",
+          "text": "Eagle",
+          "href": "https://github.com/hocgin/eagle"
+        }
+      ]
+    },
+    "tags": [
+      "商城",
+      "微信公众号",
+      "支付网关"
     ]
   },
   {
@@ -78,7 +147,7 @@
     "href": "https://github.com/hocgin/payment-project",
     "logo": "https://github.com/hocgin/payment-project/raw/master/docs/logo.png",
     "subTitle": "hocgin",
-    "desc": "聚合支付 - WxPay / AliPay",
+    "desc": "聚合支付 - WxPay / AliPay。扩展项目有支付网关支撑",
     "actions": {
       "list": [
         {
@@ -127,22 +196,17 @@
     ]
   },
   {
-    "title": "Wolves Spring Boot Project",
-    "href": "https://github.com/hocgin/wolves-spring-boot-project",
-    "logo": "https://github.com/hocgin/wolves-spring-boot-project/raw/master/docs/logo.png",
+    "title": "Spring Boot Starters Project",
+    "href": "https://github.com/hocgin/spring-boot-starters-project",
+    "logo": "https://github.com/hocgin/spring-boot-starters-project/raw/master/docs/logo.png",
     "subTitle": "hocgin",
-    "desc": "Spring Boot 开箱即用，多数据源",
+    "desc": "\uD83E\uDD95 急速开发，约定式。很多实用性的封装，原则为: 导入即用，配置扩展",
     "actions": {
       "list": [
         {
           "type": "github",
           "text": "GitHub",
-          "href": "https://github.com/hocgin/wolves-spring-boot-project"
-        },
-        {
-          "type": "link",
-          "text": "演示",
-          "href": "https://github.com/hocgin/wolves-spring-boot-project"
+          "href": "https://github.com/hocgin/spring-boot-starters-project"
         }
       ]
     },
@@ -179,11 +243,11 @@
     ]
   },
   {
-    "title": "Chrome Extension Weather",
+    "title": "Browser Extension Weather",
     "href": "https://github.com/hocgin/chrome-extension-weather",
     "logo": "https://github.com/hocgin/chrome-extension-weather/raw/master/docs/logo.png",
     "subTitle": "hocgin",
-    "desc": "☁️ Chrome 天气预报插件",
+    "desc": "☁️ 浏览器 - 天气插件",
     "actions": {
       "list": [
         {
@@ -195,6 +259,11 @@
           "type": "chrome",
           "text": "Chrome 下载",
           "href": "https://chrome.google.com/webstore/detail/weather/ibieofighcnndjcjchdahdiacjpmkhgf"
+        },
+        {
+          "type": "windows",
+          "text": "Edge 下载",
+          "href": "https://microsoftedge.microsoft.com/addons/detail/weather/mmjibclgkfldbhbnpcfoigijmfippfgg"
         }
       ],
       "follower": {
@@ -202,7 +271,7 @@
       }
     },
     "tags": [
-      "Chrome 插件",
+      "浏览器插件",
       "天气"
     ],
     "images": [
