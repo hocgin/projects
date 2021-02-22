@@ -27,6 +27,55 @@
     ]
   },
   {
+    "title": "小程序",
+    "badge": {
+      "title": "New"
+    },
+    "href": "https://hocg.in",
+    "logo": "http://cdn.hocgin.top/uPic/mp_logo.png",
+    "subTitle": "hocgin",
+    "desc": "一些有趣的小程序",
+    "actions": {
+      "list": [
+        {
+          "type": "github",
+          "text": "hocgin",
+          "href": "https://github.com/hocgin"
+        }
+      ]
+    },
+    "tags": [
+      "小程序"
+    ],
+    "images": [
+      {
+        "src": "http://cdn.hocgin.top/uPic/5091613979826_.pic.jpg"
+      },
+      {
+        "src": "http://cdn.hocgin.top/uPic/5081613979825_.pic.jpg"
+      }
+    ]
+  },
+  {
+    "title": "NES 模拟器",
+    "href": "https://nes.hocgin.top",
+    "logo": "https://github.com/hocgin/panda/raw/master/docs/logo.png",
+    "subTitle": "hocgin",
+    "desc": "NES 模拟器",
+    "actions": {
+      "list": [
+        {
+          "type": "home",
+          "text": "网站",
+          "href": "https://nes.hocgin.top/"
+        }
+      ]
+    },
+    "tags": [
+      "网站"
+    ]
+  },
+  {
     "title": "熊猫导航",
     "href": "https://github.com/hocgin/panda",
     "logo": "https://github.com/hocgin/panda/raw/master/docs/logo.png",
