@@ -292,32 +292,6 @@
     ]
   },
   {
-    "title": "Windmill Spring Boot Project",
-    "href": "https://github.com/hocgin/windmill-spring-boot-project",
-    "logo": "https://github.com/hocgin/windmill-spring-boot-project/raw/master/docs/logo.png",
-    "subTitle": "hocgin",
-    "desc": "Spring Boot 开箱即用，防重放",
-    "actions": {
-      "list": [
-        {
-          "type": "github",
-          "text": "GitHub",
-          "href": "https://github.com/hocgin/windmill-spring-boot-project"
-        },
-        {
-          "type": "link",
-          "text": "演示",
-          "href": "https://github.com/hocgin/windmill-spring-boot-project"
-        }
-      ]
-    },
-    "tags": [
-      "开发工具",
-      "Java",
-      "Spring Boot"
-    ]
-  },
-  {
     "title": "Browser Extension Weather",
     "href": "https://github.com/hocgin/chrome-extension-weather",
     "logo": "https://github.com/hocgin/chrome-extension-weather/raw/master/docs/logo.png",
