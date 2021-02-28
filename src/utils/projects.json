@@ -32,7 +32,7 @@
       "title": "New"
     },
     "href": "https://hocg.in",
-    "logo": "http://cdn.hocgin.top/uPic/mp_logo.png",
+    "logo": "http://cdn.hocgin.top/uPic/mina_logo.png",
     "subTitle": "hocgin",
     "desc": "一些有趣的小程序",
     "actions": {
@@ -59,7 +59,7 @@
   {
     "title": "NES 模拟器",
     "href": "https://nes.hocgin.top",
-    "logo": "https://github.com/hocgin/panda/raw/master/docs/logo.png",
+    "logo": "http://cdn.hocgin.top/uPic/nes_logo.png",
     "subTitle": "hocgin",
     "desc": "NES 模拟器",
     "actions": {
@@ -102,7 +102,7 @@
   {
     "title": "Taro Starter",
     "href": "https://github.com/hocgin/taro-starter",
-    "logo": "https://github.com/hocgin/taro-starter/raw/master/docs/logo.png",
+    "logo": "https://github.com/hocgin/taro-starter/raw/main/docs/logo.png",
     "subTitle": "hocgin",
     "desc": "小程序模版, 基于 Taro + DvaJS",
     "actions": {
@@ -125,7 +125,7 @@
   {
     "title": "Antd Starter",
     "href": "https://github.com/hocgin/antd-starter",
-    "logo": "https://github.com/hocgin/antd-starter/raw/master/docs/logo.png",
+    "logo": "https://github.com/hocgin/antd-starter/raw/master/docs/logo.svg",
     "subTitle": "hocgin",
     "desc": "Antd for React 项目集成完成模版",
     "actions": {
@@ -147,7 +147,7 @@
   {
     "title": "Gin 组件库",
     "href": "https://github.com/hocgin/gin-components",
-    "logo": "https://github.com/hocgin/gin-components/raw/master/docs/logo.png",
+    "logo": "https://github.com/hocgin/gin-components/raw/main/docs/logo.png",
     "subTitle": "hocgin",
     "desc": "Gin 组件",
     "actions": {
@@ -172,8 +172,8 @@
   },
   {
     "title": "Eagle",
-    "href": "https://github.com/hocgin/panda",
-    "logo": "https://github.com/hocgin/panda/raw/master/docs/logo.png",
+    "href": "https://github.com/hocgin/eagle",
+    "logo": "https://github.com/hocgin/eagle/raw/master/docs/logo.png",
     "subTitle": "hocgin",
     "desc": "商城/微信公众号/支付网关等",
     "actions": {
