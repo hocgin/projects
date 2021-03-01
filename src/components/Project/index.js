@@ -54,7 +54,7 @@ class Index extends React.PureComponent {
                           href={href}
                           type={type}
                           text={text}/>))}
-            {follower.number !== null && <div className={styles.followers}>
+            {(follower?.number !== null && follower?.number > 0) && <div className={styles.followers}>
               <span className={styles.followerNumber}>{follower.number}</span>
               <span>users</span>
             </div>}
