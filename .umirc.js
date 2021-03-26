@@ -18,7 +18,7 @@ export default {
   dva: {},
   antd: {},
   copy: ['CNAME'],
-  analytics: {
-    baidu: 'e4f613a873cead231f4f46adcbd8d671',
-  },
+  // analytics: {
+  //   baidu: 'e4f613a873cead231f4f46adcbd8d671',
+  // },
 };

@@ -260,25 +260,6 @@
     ]
   },
   {
-    "title": "NES 模拟器",
-    "href": "https://nes.hocgin.top",
-    "logo": "http://cdn.hocgin.top/uPic/nes_logo.png",
-    "subTitle": "hocgin",
-    "desc": "NES 模拟器",
-    "actions": {
-      "list": [
-        {
-          "type": "home",
-          "text": "网站",
-          "href": "https://nes.hocgin.top/"
-        }
-      ]
-    },
-    "tags": [
-      "网站"
-    ]
-  },
-  {
     "title": "熊猫导航",
     "href": "https://github.com/hocgin/panda",
     "logo": "https://github.com/hocgin/panda/raw/master/docs/logo.png",
