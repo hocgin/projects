@@ -10,8 +10,7 @@
   "dependencies": {
     "@ant-design/compatible": "^0.0.1-rc.1",
     "antd": "^4.0.0",
-    "@hocgin/gin-footer": "latest",
-    "@hocgin/gin-eggs": "latest",
+    "@hocgin/ui": "4.0.3",
     "classnames": "^2.2.6",
     "dva": "^2.6.0-beta.6",
     "query-string": "latest",

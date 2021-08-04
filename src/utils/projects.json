@@ -27,6 +27,57 @@
     ]
   },
   {
+    "title": "NES 模拟器",
+    "href": "https://nes.hocgin.top",
+    "logo": "http://cdn.hocgin.top/uPic/nes_logo.png",
+    "subTitle": "hocgin",
+    "desc": "NES 模拟器",
+    "actions": {
+      "list": [
+        {
+          "type": "home",
+          "text": "网站",
+          "href": "https://nes.hocgin.top/"
+        },
+        {
+          "type": "home",
+          "text": "小程序",
+          "href": "weixin://dl/business/?t=zi2ejmZs2Kf"
+        }
+      ]
+    },
+    "tags": [
+      "网站"
+    ]
+  },
+  {
+    "title": "公众号",
+    "badge": {
+      "title": "New"
+    },
+    "href": "http://mp.weixin.qq.com/s?__biz=MzI0MjcxNTMwMg==&mid=100001283&idx=1&sn=b3ed2dfa5d4ccc06ab47e35b923f8dfb&chksm=697959ca5e0ed0dcf27634bfd997ab67ef3faf7e8edce321420db8a88010171e23c2cd65f60b#rd",
+    "logo": "http://cdn.hocgin.top/uPic/mp_logo.png",
+    "subTitle": "hocgin",
+    "desc": "保持敏锐，一个竟然会更新的公众号..",
+    "actions": {
+      "list": [
+        {
+          "type": "github",
+          "text": "hocgin",
+          "href": "https://github.com/hocgin"
+        }
+      ]
+    },
+    "tags": [
+      "公众号"
+    ],
+    "images": [
+      {
+        "src": "http://cdn.hocgin.top/uPic/mp-logo.jpg"
+      }
+    ]
+  },
+  {
     "title": "Squirrel",
     "href": "https://github.com/hocgin/squirrel",
     "logo": "https://github.com/hocgin/squirrel/raw/master/docs/logo.png",
